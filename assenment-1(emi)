@@ -1,0 +1,5 @@
+I=float(input("Enter interest"))
+P=int(input("Enter principal value"))
+T=int(input("Enter time period in months"))
+Emi=(P+I)/100
+print("Emi is= ",Emi)
