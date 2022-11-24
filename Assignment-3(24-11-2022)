@@ -1,0 +1,23 @@
+sno=int(input("enter sno "))
+name=input("enter name")
+group=input("enter group")
+s1=int(input("enter sub1 marks"))
+s2=int(input("enter sub2 marks"))
+s3=int(input("enter sub3 marks"))
+if s1>=35 and s2>=35 and s3>=35:
+    print('PASS')
+    print('sno is: ',sno)
+    print('name is: ',name)
+    print('group is: ',group)
+    print('s1 is: ',s1)
+    print('s2 is: ',s2)
+    print('s3 is: ',s3)
+else:
+    print("FAIL")
+    print('sno is: ',sno)
+    print('name is: ',name)
+    print('group is: ',group)
+    print('s1 is: ',s1)
+    print('s2 is: ',s2)
+    print('s3 is: ',s3)
+    
