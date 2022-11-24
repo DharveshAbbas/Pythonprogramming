@@ -1,0 +1,12 @@
+a=int(input('ENTER A NUMBER'))
+b=int(input('ENTER A NUMBER'))
+if a<b:
+    print("a is small")
+elif a>b:
+    print('b is small')
+elif a==b:
+    print('equal')
+if a<=b:
+    print('sum: ',a+b)
+elif a>=b:
+    print('sub: ',a-b)
