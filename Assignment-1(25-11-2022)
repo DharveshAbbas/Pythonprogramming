@@ -1,0 +1,7 @@
+l=[1,2,3,4]
+n=int(input('ENTER A NUMBER'))
+for i in l:
+    if n==i:
+        print("ELEMENT FOUND")
+    elif i==4:
+        print("NOT FOUND")
