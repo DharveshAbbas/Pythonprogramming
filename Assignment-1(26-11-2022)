@@ -1,0 +1,5 @@
+a=int(input("ENTER A VALUE"))
+b=int(input("ENTER VALUE"))
+print("bitwise and is= ",a&b)
+print("bitwise or is= ",a|b)
+print("ones compliment is= ",a^b)
