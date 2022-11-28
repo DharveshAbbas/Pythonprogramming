@@ -1,0 +1,7 @@
+a=int(input("Enter amount: "))
+b=1000
+mb=a+b
+print("Credited amount is: ",a)
+print("Main balance is: ",mb)
+
+
