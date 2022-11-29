@@ -1,0 +1,12 @@
+a=int(input("Enter number"))
+b=int(input("Enter number"))
+c=int(input("Enter number"))
+d=int(input("Enter number"))
+if a>b and a>c and a>d:
+    print("a is big")
+elif b>c and b>d:
+    print("b is big")
+elif c>d:
+    print("c s big")
+else:
+    print("d is big")
