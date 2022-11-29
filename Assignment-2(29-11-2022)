@@ -1,0 +1,18 @@
+empno=int(input("Enter emp no: "))
+empname=input('Enter name: ')
+empdesig=input('Enter empdesig: ')
+basicsalary=int(input("Enter basic sal: "))
+da=int(input('Enter daily allowance: '))
+ta=int(input('Enter travelling allowance: '))
+hra=int(input('Enter House Rental allowance: '))
+netsalary=basicsalary+da+ta+hra
+if netsalary>100000:
+    tax=netsalary*10/100
+    if netsalary>50000:
+        tax=netsalary*7/100
+        if netsalary>40000:
+            tax=netsalary*4/100
+            if netsalary>20000:
+                tax=netsalary*2/100
+
+                print("tax is: ",tax)
