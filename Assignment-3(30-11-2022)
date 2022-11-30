@@ -1,0 +1,16 @@
+mc=10
+cc=45
+cpc=3
+oc=100
+b=int(input("Enter service no: "))
+a=int(input("Enter Amount: "))
+bill=mc+cc+cpc+oc+a
+if bill>2000:
+    tax=bill*10/100
+elif bill>1000:
+    tax=bill*5/100
+elif bill>500:
+    tax=0
+tot=bill+tax
+print('Service Number: ',b)
+print("Total Amount: ",tot)
