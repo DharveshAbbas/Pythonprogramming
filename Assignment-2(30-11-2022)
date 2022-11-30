@@ -1,0 +1,53 @@
+cphno=int(input('Enter cphno: '))
+name=input('Enter name: ')
+address=input('Enter address: ')
+a=int(input("How many kg of Rice you want: "))
+b=int(input("How many kg of Dal you want: "))
+c=int(input("How many kg of Wheat you want: "))
+d=int(input("How many kg of chili you want: "))
+e=int(input("How many kg of Maidha you want: "))
+coupon=input("ENTER COUPON NAME: ")
+cou1='DIWALI'
+cou2='CHIRSMAS'
+r=75
+da=58
+w=50
+n=88
+m=48
+total=(a*r)+(b*da)+(c*w)+(d*n)+(e*m)
+if total>3000:
+   tax=total*5/100
+elif total>2000:
+   tax=total*7/100
+elif total>1000:
+   tax=total*10/100
+elif total>500:
+   tax=total*15/100
+else:
+    tax=100
+bill=total+tax
+if coupon==cou1:
+    if bill>=5000:
+        Dis=bill*10/100
+    if bill>=3000:
+        Dis=bill*6/100
+    if bill>=1000:
+        Dis=bill*4/100
+    else:
+        Dis=0
+elif coupon==cou2:
+    if bill>=3000:
+        Dis=bill*20/100
+    if bill>=2000:
+        Dis=bill*10/100
+    if bill>=1000:
+        Dis=bill*5/100  
+    else:
+        Dis=0
+finall_bill=bill-Dis
+print('CUSTOMER PHNO:',cphno)
+print('CUSTOMER NAME:',name)
+print('CUSTOMER ADDRESS:',address)
+print('Tax:',tax)
+print('TOTAL BILL',finall_bill)
+print("DISCOUNT: ",Dis)
