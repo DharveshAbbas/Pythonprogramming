@@ -1,0 +1,30 @@
+# way  1
+def big(n,m):
+    if n<m:
+        print("m is big: ",m)
+    else:
+        print("n is big: ",n)
+n=int(input("Enter number: "))
+m=int(input("Enter number: "))
+big(n,m)
+# WAY 2
+def big(n,m):
+    if n<m:
+        return True
+    else:
+        return False
+n=int(input('Enter number'))
+m=int(input('Enter number'))
+if(big(n,m)):
+    print('m is big',m)
+else:
+    print('n is big',n)
+# WAY 2
+def big(n,m):
+    if n<m:
+        return "big"
+    else:
+        return "False"
+n=int(input('Enter number'))
+m=int(input('Enter number'))
+print(big(n,m))
