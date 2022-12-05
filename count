@@ -1,0 +1,15 @@
+n=int(input("Enter any positive number")) # n=8 
+i=2 
+factor=2
+count=0
+for i in range(2,n):
+    while(i<n): # 2<8
+        if(n%i==0): # 8%2==0, yes
+            actor=factor+1 # 2+1 = 3
+            break 
+        i=i+1
+        n=n-1
+    if(factor==2):
+        count=count+1
+print("Count is: ",count)
+   
