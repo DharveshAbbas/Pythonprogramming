@@ -1,0 +1,7 @@
+l=[]
+n=int(input("Enter Number of Elements: "))
+for i in range(n):
+    x=int(input("Enter Element: "))
+    l.append(x)
+print("Maximum is: ",max(l))
+print("Minimum is: ",min(l))
