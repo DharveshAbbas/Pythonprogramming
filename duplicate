@@ -1,0 +1,9 @@
+a=[]
+n=int(input("Enter no.of Elements: "))
+for i in range(n):
+    x=int(input("Enter Elements: "))
+    a.append(x)
+    s=set(a)
+    m=list(s)
+print("Elements are: ",m)
+
