@@ -1,0 +1,9 @@
+str=input("Enter string: ")
+c=len(str)
+a=0
+for i in range(0,c):
+    if str[i].isdigit()==1:
+        a=a+1
+    
+print(a)
+    
